@@ -13,13 +13,10 @@ figure {
   height: 15rem;
 }
 
-.figure-top {
-  height: 15rem;
-  padding-top: 1.3rem;
-}
-
-.figure-bottom {
-  height: 15rem;
+.calendar {
+  width: 30rem;
+  height: 20rem;
+  padding: 0.5rem;
 }
 
 header {
@@ -35,23 +32,17 @@ h1 {
   font-size: 250%;
 }
 
-h1:first-letter {
-  font-size: 150%;
-}
-
 span {
-  font-size: 50%;
-  font-style: normal;
+  font-style: italic;
 }
 
 h3 {
   color: cadetblue;
 }
 
-figcaption {
-  font-size: 90%;
-  font-style: italic;
-  color: cadetblue;
+h4 {
+  font-size: 110%;
+  letter-spacing: 0.1rem;
 }
 
 footer {
@@ -86,6 +77,34 @@ a:hover {
 p {
   line-height: 130%;
 }
+
+.pattern {
+  background-color: lightblue;
+  color: white;
+}
+
+.pattern2 {
+  background-color: azure;
+  color: cadetblue;
+}
+
+section.pattern {
+  padding: 0.1rem 1rem 1.5rem 1rem;
+}
+
+div.pattern2 section {
+  padding-bottom: 2.5rem;
+}
+
+section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+address {
+  padding-top: 2rem;
+}
+
 /*  SECTIONS  ============================================================================= */
 
 .row {
