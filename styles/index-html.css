@@ -15,10 +15,15 @@ figure {
 
 .figure-top {
   height: 15rem;
-  padding-top: 1.3rem;
+  padding-top: 1.5rem;
 }
 
 .figure-bottom {
+  height: 15rem;
+  padding-top: 1.3rem;
+}
+
+div img {
   height: 15rem;
 }
 
@@ -46,6 +51,7 @@ span {
 
 h3 {
   color: cadetblue;
+  letter-spacing: 0.1rem;
 }
 
 figcaption {
@@ -63,6 +69,7 @@ footer {
 a {
   text-decoration: none;
   color: cadetblue;
+  letter-spacing: 0.1rem;
 }
 
 a:hover {
@@ -86,6 +93,11 @@ a:hover {
 p {
   line-height: 130%;
 }
+
+.row:nth-of-type(n + 4) {
+  border: 0.15rem solid lightblue;
+}
+
 /*  SECTIONS  ============================================================================= */
 
 .row {

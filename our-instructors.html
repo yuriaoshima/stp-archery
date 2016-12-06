@@ -3,60 +3,84 @@
   <head>
     <meta charset="utf-8">
     <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/instructors.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
   
   <body>
     <!--header to include the registration link and logo-->
     <header>
-      <img src="images/logo.jpg" alt="company logo">
       <a href="http://www.google.com">Register for Classes!</a>
     </header>
     
     <article>
-      <h1>Our Instructors</h1>
-      <nav>
-        <a href="classes-and-schedules.html">Classes</a>
-        <a href="index.html">About Us</a>
-        <a href="http://www.google.com">Registration</a>
-      </nav>
+      <div class="row">
+        <div class="col span_2_of_12">
+          <img class="logo" src="images/logo-new.jpg" alt="company logo">
+        </div>
+        <div class="col span_10_of_12">
+          <h1>Our Instructors</h1>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col span_12_of_12">
+          <nav class="top-navbar">
+            <a href="classes-and-schedules.html">Classes</a>
+            <a href="index.html">About Us</a>
+            <a href="http://www.google.com">Registration</a>
+          </nav>
+        </div>
+      </div>
       
       <!--section about the instructors-->
-      <section>
-        <h3>Derek Jenkins</h3>
-        <img src="images/derek-jenkins-instructor.jpg" alt="instrcutor Derek Jenkins">
-        <p>Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
-      </section>
-      
-      <section>
-        <h3>Amy Smith</h3>
-        <img src="images/amy-smith-instructor.jpg" alt="instructor Amy Smith">
-        <p>Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years</p>
-      </section>
-      
-      <section>
-        <h3>Nathan Lee</h3>
-        <img src="images/nathan-lee-instructor.jpg" alt="instructor Nathan Lee">
-        <p>Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
-      </section> 
+      <div class="row">
+        <div class="col span_4_of_12">
+          <h3>Derek Jenkins</h3>
+          <img src="images/derek-jenkins-instructor.jpg" alt="instrcutor Derek Jenkins">
+          <p>Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
+        </div>
+        
+        <div class="col span_4_of_12">
+          <h3>Amy Smith</h3>
+          <img src="images/amy-smith-instructor.jpg" alt="instructor Amy Smith">
+          <p>Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years</p>
+        </div>
+        
+        <div class="col span_4_of_12">
+          <h3>Nathan Lee</h3>
+          <img src="images/nathan-lee-instructor.jpg" alt="instructor Nathan Lee">
+          <p>Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
+        </div>
+      </div>
     </article>
+    
+    <!--section for contact info-->
+    <div class="row">
+      <div class="col span_12_of_12">
+        <address>
+          <small>
+            Straight to the Point Archery <br>
+            528 Nock Point Ln <br>
+            Tacoma, WA 98412 <br>
+            <a href="http://www.google.com">archery-education@example.com</a><br>
+            (253)555-1010
+          </small>
+        </address>
+      </div>
+    </div>
     
     <!--footer to repeat the nav bar-->
     <footer>
-      <small>&copy; Straight To The Point Archery, 2016</small>
-      <address>
-        <small>
-          Straight to the Point Archery <br>
-          528 Nock Point Ln <br>
-          Tacoma, WA 98412 <br>
-          <a href="http://www.google.com">archery-education@example.com</a><br>
-          (253)555-1010
-        </small>
-      </address>
-      <nav>
-        <a href="classes-and-schedules.html">Classes</a>
-        <a href="index.html">About Us</a>
-        <a href="http://www.google.com">Registration</a>
-      </nav>
+      <small>
+        &copy; Straight To The Point Archery, 2016
+        <nav>
+          <a href="classes-and-schedules.html">Classes |</a>
+          <a href="index.html">About Us | </a>
+          <a href="http://www.google.com">Registration</a>
+        </nav>
+      </small>
     </footer>
   </body>
 </html>
