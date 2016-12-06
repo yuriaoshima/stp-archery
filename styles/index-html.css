@@ -27,13 +27,61 @@ header {
   margin: 1rem 7.8rem 1rem 0;
 }
 
+h1 {
+  font-style: italic;
+  letter-spacing: 0.3rem;
+  padding-left: 1rem;
+  color: cadetblue;
+  font-size: 250%;
+}
+
+h1:first-letter {
+  font-size: 150%;
+}
+
+span {
+  font-size: 50%;
+  font-style: normal;
+}
+
+h3 {
+  color: cadetblue;
+}
+
+figcaption {
+  font-size: 90%;
+  font-style: italic;
+  color: cadetblue;
+}
+
 footer {
   clear: both;
   padding-top: 2rem;
-  margin-left: 7.8rem;
+  padding-left: 7.8rem;
 }
 
+a {
+  text-decoration: none;
+  color: cadetblue;
+}
 
+a:hover {
+  color: black;
+}
+
+.top-navbar a:hover {
+  color: white;
+}
+
+.top-navbar a {
+  font-size: 110%;
+  padding-left: 11rem;
+}
+
+.top-navbar {
+  background-color: lightblue;
+  padding: 1rem 0 1rem 0;
+}
 
 /*  SECTIONS  ============================================================================= */
 
