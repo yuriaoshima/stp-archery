@@ -94,7 +94,7 @@ p {
   line-height: 130%;
 }
 
-.row:nth-of-type(n + 4) {
+.line-break {
   border: 0.15rem solid lightblue;
 }
 
